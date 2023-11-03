@@ -3,11 +3,11 @@ body {
 }
 
 h1, h2, h3, h4, a, p, ul, th, td {
-    font-family: Optima, sans-serif;
+    font-family: Optima, sans-serif, Arial;
 }
 
 a, p , ul, th, td {
-    font-size: 16px;
+    font-size: 1em; /* 100% for phone, different size screens etc */
 }
 
 h2, h3, h4, p, ul, th, td {
@@ -43,6 +43,7 @@ table {
 /*id="" gives each class a unique value so you can make changes further on another level of detail within the same tag (different p tags for example)*/
 .pod {
     border-radius: 40%;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .hunter {

@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: black;
+}
+
+h2, h3, h4, p, ul {
+    color: white;
+}
+
+header, footer {
+    background-color: #2E8B57;
+}
+
+a {
+    color: lightblue;
+}
+
+.pod {
+    border-radius: 40%;
+}
+
+.hunter {
+    border-radius: 7%;
+    height: 300px;
+}

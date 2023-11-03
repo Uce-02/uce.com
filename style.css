@@ -2,22 +2,45 @@ body {
     background-color: black;
 }
 
-h1 {
-    color: black;
+h1, h2, h3, h4, a, p, ul, th, td {
+    font-family: Optima, sans-serif;
 }
 
-h2, h3, h4, p, ul {
+a, p , ul, th, td {
+    font-size: 16px;
+}
+
+h2, h3, h4, p, ul, th, td {
     color: white;
-}
-
-header, footer {
-    background-color: #2E8B57;
 }
 
 a {
     color: lightblue;
 }
 
+header, footer, #uice {
+    background-color: #2E8B57;
+}
+
+table {
+    border-width: medium;
+    background-color: #e26d6c;
+}
+
+.row1, .row2 {
+    text-align: center;
+  }
+
+.row2 {
+    background-color: black
+}
+
+#j {
+    background-color: red;
+}
+
+/*class="" groups a bunch of objects (img e.g.) then use .classname (.pod) to make changes to only those instances of an image for example */
+/*id="" gives each class a unique value so you can make changes further on another level of detail within the same tag (different p tags for example)*/
 .pod {
     border-radius: 40%;
 }
